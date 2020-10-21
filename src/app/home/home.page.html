@@ -1,20 +1,29 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
+<ion-header [translucent]="true" >
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button color="dark"></ion-menu-button>
+
+    </ion-buttons>
+    <ion-title color= "dark">
+      ToDoApp
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" >
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large" >ToDoApp</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <div><strong>Welcome to ToDoApp!</strong></div><br>
+    <p>Please use the side menu and tabs at the bottom 
+      to explore the application. </p>
+    
+      <p>Also feel free to see my repository at <a target ="blank" href="https://github.com/majchrzakmichal/toDoApp.git">GitHub</a></p>
+      <br>
+      <h2>We hope you will enjoy your expirience with this application</h2>
+    </div>
 </ion-content>
